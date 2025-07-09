@@ -5,7 +5,7 @@
    sudo apt update
 
    sudo apt install git
-2. 配置git用户信息
+2. 配置git用户信息（windows系统下在git bash 中配置）
 
    git config --global user.name "你的用户名"
 
@@ -42,3 +42,7 @@
 
 ## windows系统下
 同ubuntu类似，更加可视化，更加便捷。
+
+测试当前师傅连接上GitHub
+
+ssh -T git@github.com
